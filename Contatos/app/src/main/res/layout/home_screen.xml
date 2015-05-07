@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.ufpb.ayty.cursos.android_basico.contatos.HomeScreen">
+
+    <include layout="@layout/fragment_action_button"/>
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="br.com.ufpb.ayty.cursos.android_basico.contatos.customize.RobotoLighTextView"
+        android:id="@+id/nothingHere"
+        android:text="@string/nothing_here"
+        android:textColor="@color/md_secondary_text_icons"
+        android:layout_marginTop="16dp"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+
+
+
+</LinearLayout>

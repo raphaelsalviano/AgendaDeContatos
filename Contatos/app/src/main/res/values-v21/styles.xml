@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_700</item>
+        <item name="colorAccent">@color/md_red_A200</item>
+        <item name="colorControlHighlight">@color/md_blue_500_25</item>​
+        <item name="colorControlNormal">@color/md_black_1000_50</item>
+        <item name="colorSwitchThumbNormal">@color/md_grey_200</item>
+        <item name="android:colorForeground">@color/md_black_1000_75</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/md_blue_500</item>
+        <item name="android:colorBackground">@color/md_white_1000</item>
+        <item name="android:textColorPrimary">@color/md_text</item>
+        <item name="android:textColorSecondary">@color/md_secondary_text_icons</item>
+        <item name="android:textColorTertiary">@color/md_disabled_hint_text</item>
+        <item name="android:textColorPrimaryInverse">@color/md_text_white</item>
+        <item name="android:textColorSecondaryInverse">@color/md_secondary_text_icons_white</item>
+        <item name="android:textColorTertiaryInverse">@color/md_disabled_hint_text_white</item>
+        <item name="android:cacheColorHint">@color/md_divider</item>
+        <item name="android:navigationBarColor">@color/md_blue_500</item>
+    </style>
+
+    <style name="AppThemeThow" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/md_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_700</item>
+        <item name="colorAccent">@color/md_red_A200</item>
+        <item name="colorControlHighlight">@color/md_blue_500_25</item>​
+        <item name="colorControlNormal">@color/md_black_1000_50</item>
+        <item name="colorSwitchThumbNormal">@color/md_grey_200</item>
+        <item name="android:colorForeground">@color/md_black_1000_75</item>
+        <item name="actionModeBackground">@color/md_blue_500</item>
+        <item name="android:statusBarColor">@color/md_blue_700</item>
+        <item name="android:colorBackground">@color/md_white_1000</item>
+        <item name="android:textColorPrimary">@color/md_text</item>
+        <item name="android:textColorSecondary">@color/md_secondary_text_icons</item>
+        <item name="android:textColorTertiary">@color/md_disabled_hint_text</item>
+        <item name="android:textColorPrimaryInverse">@color/md_text_white</item>
+        <item name="android:textColorSecondaryInverse">@color/md_secondary_text_icons_white</item>
+        <item name="android:textColorTertiaryInverse">@color/md_disabled_hint_text_white</item>
+        <item name="android:cacheColorHint">@color/md_divider</item>
+        <item name="android:navigationBarColor">@color/md_blue_500</item><item name="android:titleTextStyle">@style/TitleStyles</item>
+    </style>
+
+    <style name="TitleStyles" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:textSize">@dimen/abc_text_size_display_1_material</item>
+    </style>
+
+    <style name="Button" parent="android:style/Widget.Material.Button">
+        <item name="android:background">@drawable/raised_button_background</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:elevation">1dp</item>
+    </style>
+
+</resources>
